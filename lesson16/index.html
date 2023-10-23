@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="conteiner">
+        <div class="first show">
+            <div class=" block top-block">
+                <p>Lorem ipsum dolor sit amet.</p>
+                <p>Lorem ipsum dolor sit amet.</p>
+                <p>Lorem ipsum dolor sit amet.</p>
+                <p>Lorem ipsum dolor sit amet.</p>
+                <p>Lorem ipsum dolor sit amet.</p>
+            </div>
+            <div class="centere-block">
+                <input type="button" value="edit" class="btn-edit">
+                <input type="button" value="style" class="btn-style">
+            </div>
+            <div class=" block bottom-block">
+                <div class="edit-block">
+                    <textarea class="edit-area"></textarea>
+                    <input type="button" value="add" class="btn-add">
+                    <input type="button" value="save" class="btn-save">
+                </div>
+                <div class="style-block">
+                    <form action="style">
+                        <div class="font-size">
+                            <h2>font-size</h2>
+                            <input type="radio" class="radiopx" name="size" value="12px" id="r12"><label
+                                for="r12">12px</label>
+                            <input type="radio" class="radiopx" name="size" value="14px" id="r14" checked><label
+                                for="r14">14px</label>
+                            <input type="radio" class="radiopx" name="size" value="16px" id="r16"><label
+                                for="r16">16px</label>
+                            <input type="radio" class="radiopx" name="size" value="18px" id="r18"><label
+                                for="r18">18px</label>
+                            <input type="radio" class="radiopx" name="size" value="20px" id="r20"><label
+                                for="r20">20px</label>
+                        </div>
+                        <div class="form-family">
+                            <h2>Font family</h2>
+                            <select id="fontFamily">
+                                <option value="">Choose option</option>
+                                <option value="cursive">cursive</option>
+                                <option value="fantasy">fantasy</option>
+                                <option value="monospace">monospace</option>
+                                <option value="sans-serif">monospace</option>
+                            </select>
+                        </div>
+                        <div class="form-color">
+                            <h2>Colors</h2>
+                            <input type="button" value="Color of text" class="btn-text-color">
+                            <input type="button" value="Background color" class="btn-bg-color">
+                            <div class="colors">
+                                <div class="color-box"></div>
+                                <div class="color-box"></div>
+                                <div class="color-box"></div>
+                                <div class="color-box"></div>
+                                <div class="color-box"></div>
+                                <div class="color-box"></div>
+                                <div class="color-box"></div>
+                                <div class="color-box"></div>
+                                <div class="color-box"></div>
+                            </div>
+                        </div>
+                        <div class="form-style">
+                            <h2>Style:</h2>
+                            <input type="checkbox" class="textBold" id="tB"><label for="tB">Bold text</label>
+                            <input type="checkbox" class="textCursive" id="tC"><label for="tC">Cursive text</label>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="second ">
+            <div class="block blockup">
+                <h2>Choose what you want: </h2>
+                <form class="ff">
+                    <input type="radio" name="choose" id="table"><label for="table">table</label>
+                    <input type="radio" name="choose" id="list"><label for="list">list</label>
+                </form>
+                <div class="create-list">
+                    <form name="form-list">
+                        <label for="cl">Count Li:</label>
+                        <input type="text" name="count" id="cl"><br>
+                        <label for="typ">Type of marks:</label>
+                        <select name="type" id="typ" style=" margin-left: 15px;">
+                            <option value="circle">circle</option>
+                            <option value="disc">disc</option>
+                            <option value="square">square</option>
+                        </select><br>
+                        <input type="button" value="create-list" name="create" class="btn-create-list but-style">
+                    </form>
+                </div>
+                <div class="create-table">
+                    <form name="formTable">
+                        <label for="tr">Count TR:</label>
+                        <input type="text" id="tr" name="countr" placeholder="Count TR:"><br>
+                        <label for="td">Count TD:</label>
+                        <input type="text" id="td" name="countd" placeholder="Count TD:"><br>
+                        <h2>Add style to your table:</h2>
+                        <label for="wtd">Width of TD</label>
+                        <input type="text" id="wtd" name="wtd" placeholder="Width of TD:"><br>
+                        <label for="htd">Height of TD</label>
+                        <input type="text" id='htd' name="htd" placeholder="Height of TD:"><br>
+                        <label for="wb">Width of border:</label>
+                        <input type="text" id="wb" name="wob" placeholder="Width:">
+                        <label for="tb">Type of border:</label>
+                        <select name="typeofbor" id="tb">
+                            <option value="solid">solid</option>
+                            <option value="dotted">dotted</option>
+                            <option value="dashed">dashed</option>
+                        </select>
+                        <label for="cb">Color of border:</label>
+                        <select name="colorofbor" id="cb">
+                            <option value="black">Black</option>
+                            <option value="red">red</option>
+                            <option value="blue">Blue</option>
+                            <option value="green">Green</option>
+                        </select><br>
+                        <input type="button" value="Create-table" class="btn-create-table but-style">
+
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

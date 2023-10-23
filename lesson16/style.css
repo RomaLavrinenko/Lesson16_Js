@@ -1,0 +1,148 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.conteiner{
+    width: 70%;
+    margin: 0 auto;
+}
+.block{
+    height: 300px;
+    border-radius: 5px;
+    background-color: lightgray;
+    margin: 20px 0;
+    padding: 20px;
+    position: relative;
+    line-height: 30px;
+}
+.edit-block , .style-block , .create-list , .create-table{
+    display: none;
+}
+.edit-area{
+    width: 100%;
+    height: 200px;
+    resize: none;
+}
+.btn-add{
+    background-color: green;
+    width: 60px;
+    height: 30px;
+    margin-right: 15px;
+    border-radius: 5px;
+}
+
+.btn-save{
+    background-color: red;
+    width: 60px;
+    height: 30px;
+    margin-right: 15px;
+    border-radius: 5px;
+}
+
+.centere-block{
+    display: flex;
+    justify-content: center;
+}
+
+.btn-edit{
+    background-color: orange;
+    width: 60px;
+    height: 30px;
+    margin-right: 15px;
+    border-radius: 5px;
+}
+.btn-style{
+    background-color: lightblue;
+    width: 60px;
+    height: 30px;
+    margin-left: 15px;
+    border-radius: 5px;
+
+}
+
+.font-size , .form-family , .form-color , .form-style{
+    margin-bottom: 10px;
+}
+
+#table, #list{
+    margin: 0 5px 0 10px;
+}
+
+#fontFamily{
+    width: 300px;
+    height: 30px;
+}
+
+.btn-text-color , .btn-bg-color{
+    background-color: darkgray;
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: none;
+}
+
+#cl , #typ , #tr , #td, #wtd, #htd{
+    width: 700px;
+    height: 30px;
+    margin-left: 50px;
+    margin-bottom: 20px;
+}
+#wtd{
+    margin-left: 38px;
+}
+#htd{
+    margin-left: 35px;
+}
+
+#wb , #tb , #cb{
+    width: 120px;
+    height: 30px;
+    margin-left: 15px;
+    margin-right: 45px;
+    margin-bottom: 20px;
+}
+.but-style{
+    width: 100px;
+    height: 30px;
+    background-color: rgb(68, 151, 68);
+    border: none;
+    border-radius: 5px;
+}
+.ff{
+    margin-bottom: 10px;
+}
+
+.textBold , .textCursive{
+    margin: 0 5px 0 10px;
+}
+
+.colors{
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    outline: 1px solid black;
+    top: 35px;
+    right: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    display: none;
+}
+.color-box{
+    width: 50px;
+    height: 50px;
+    border: 1px solid black;
+}
+
+.first , .second{
+    display: none;
+}
+.top-block{
+    overflow: auto;
+}
+
+.hide{
+    display: none;
+}
+.show{
+    display: block;
+}
